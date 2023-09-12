@@ -16,8 +16,10 @@
 }
 html {
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 body {
+	overflow-x: hidden;
 	font-family: 'Poppins', sans-serif;
 	background: var(--primary-color);
 }
@@ -26,6 +28,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 6.4rem;
+	position: relative;
 }
 .flex {
 	display: flex;
